@@ -12,7 +12,25 @@ StudyDrop is a static student upload hub that runs in the browser and can be pub
 - JSON export of the upload list
 - Responsive layout for phone, tablet, and desktop
 
+## Run With Python
+
+Use this version when you want uploaded files to save on your computer.
+
+```powershell
+python app.py
+```
+
+Then open:
+
+```text
+http://127.0.0.1:8000
+```
+
+Uploaded files are saved in the `uploads` folder.
+
 ## Publish On GitHub Pages
+
+GitHub Pages can publish the website files, but it cannot run the Python upload server. Use GitHub Pages for the public front page, and run `app.py` locally when you need real file saving.
 
 1. Create a new GitHub repository.
 2. Upload these files to the repository root.
